@@ -1,0 +1,15 @@
+.songCard{
+    height: 12rem;
+    width: 12rem;
+    background-color: rgb(41, 39, 39);
+    border-radius: 0.5rem;
+}
+.cardImg{
+    height: 8.8rem;
+    width: 8rem;
+    border-radius: 100%;
+}
+.title{
+    font-size: small;
+    color: white;
+}
