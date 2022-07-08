@@ -1,5 +1,5 @@
 .songCard{
-    height: 12rem;
+    height: 14.8rem;
     width: 12rem;
     background-color: rgb(41, 39, 39);
     border-radius: 0.5rem;
@@ -8,8 +8,19 @@
     height: 8.8rem;
     width: 8rem;
     border-radius: 100%;
+    margin-left: 15%;
+    margin-top: 3%;
 }
 .title{
+    font-size: medium;
+    color: white;
+    margin-top: 2px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+.subTitle{
     font-size: small;
     color: white;
+    margin-top: 1px;
+    padding-left: 4px;
 }

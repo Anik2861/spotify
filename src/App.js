@@ -1,15 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
-import Home from './Pages/Home/Home/Home';
+import ArtistTops from './Pages/Home/ArtistTops/ArtistTops';
+import ArtistTopDetails from './Pages/ArtistTopDetails/ArtistTopDetails';
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/' element={<ArtistTops></ArtistTops>}></Route>
+        <Route path='/details/:id' element={<ArtistTopDetails></ArtistTopDetails>}></Route>
         
       </Routes>
     </div>
